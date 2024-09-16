@@ -36,6 +36,7 @@ const Login = () => {
     <>
     <div className="login w-[50%] flex flex-col items-center m-3 sm:m-0 sm:gap-20 text-white  ">
       <h1 className="sm:text-[3rem] text-2xl mb-3 sm:mb-0">Login</h1>
+      <p className="text-gray-300">for test you can use "bret@gmail.com" and password is "123456"</p>
       <form onSubmit={handleLogin} className="flex flex-col sm:gap-3 ">
         <label htmlFor="email" className="sm:text-xl ">
           Enter Email:
